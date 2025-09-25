@@ -1,0 +1,68 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Segoe UI, arial, roboto;
+ }
+
+ body {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+ }
+
+ .container {
+   width: 450px;
+   height: 550px;
+   background-color: aquamarine;
+   background-image: url(./images/damiano-baschiera-d4feocYfzAM-unsplash.jpg);
+   background-size: cover;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+ }
+
+ .tour-info {
+   background-color: rgba(250, 250, 250, 0.6);
+   width: 100%;
+   height: 35%;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+ }
+
+ .heading {
+   font-size: 40px;
+   font-weight: 600;
+   color: #050BC0;
+   margin-bottom: 5px;
+ }
+
+ .strike {
+   text-decoration: line-through;
+ }
+
+ .info {
+   margin-bottom: 15px;
+
+ }
+
+ button {
+   background-color: #00C9EA;
+   border: none;
+   padding: 5px 25px;
+   border-radius: 20px;
+   font-size: 16px;
+   color: white;
+ }
